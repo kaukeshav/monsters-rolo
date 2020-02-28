@@ -1,0 +1,15 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed gainsboro;
+  border-radius: 4px;
+  padding: 25px 40px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 200ms ease-in-out;
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+.card-container:hover {
+  transform: scale(1.05);
+}

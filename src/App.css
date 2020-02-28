@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  background: -webkit-linear-gradient(to right, #556270, #4ecdc4);
+  background: linear-gradient(to right, #8bc34a, #4ecdc4);
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.app-name {
+  margin: 0;
+  font-size: 72px;
+  font-family: fantasy;
+  color: aqua;
+  text-shadow: 3px 4px 0px white;
 }
 
 .App-logo {
